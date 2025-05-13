@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>About Us - Tech Blog</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Learn about Tech Blog and our mission">
+        <link rel="stylesheet" href="about.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo-container">
+                <img src="images/logo.png" alt="Tech Blog Logo" class="logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li class="dropdown">
+                        <a href="#">CATEGORY</a> 
+                        <ul class="dropdown-content">
+                            <li><a href="ai.html">A.I</a></li>
+                            <li><a href="science.html">Science</a></li>
+                            <li><a href="blockchain.html">Blockchain</a></li>
+                            <li><a href="medical.html">Medical</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="about_us.html" class="active">ABOUT US</a></li>
+                </ul>
+            </nav>
+            <h3 class="companyname">Tech Blog</h3>
+            <div class="search-bar">
+                <input type="text" placeholder="Search">
+                <i class="fas fa-search search-icon"></i>
+            </div>
+        </header>
+        
+        <main>
+            <section class="about-hero">
+                <div class="hero-overlay"></div>
+                <img src="background_m.jpg" alt="Tech Background" class="hero-image" id="heroImage">
+                <div class="about-hero-content">
+                    <h1>About <span>Tech Blog</span></h1>
+                    <p>Your trusted source for cutting-edge technology insights and trends</p>
+                    <div class="about-hero-cta">
+                        <a href="#mission" class="about-scroll-btn">Learn More</a>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="about-content">
+               
+                <div id="mission" class="mission-vision">
+                    <div class="mission">
+                        <div class="mission-icon">
+                            <i class="fas fa-bullseye"></i>
+                        </div>
+                        <h2>Our Mission</h2>
+                        <p>
+                            At Tech Blog, we're committed to providing our readers with insightful, accurate, and timely information 
+                            about the rapidly evolving world of technology. We believe in making complex technological concepts 
+                            accessible to everyone, regardless of their technical background.
+                        </p>
+                    </div>
+                    
+                    <div class="vision">
+                        <div class="vision-icon">
+                            <i class="fas fa-eye"></i>
+                        </div>
+                        <h2>Our Vision</h2>
+                        <p>
+                            We envision a world where technology serves humanity by enhancing lives, solving problems, 
+                            and creating opportunities. Our goal is to be the premier source of technology information 
+                            that helps people navigate the digital landscape with confidence.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- Story Section with Timeline Design -->
+                <div class="about-story">
+                    <h2>Our Story</h2>
+                    <div class="story-timeline">
+                        <div class="timeline-marker"></div>
+                        <div class="story-content">
+                            <p>
+                                Tech Blog was founded in 2025 by a group of technology enthusiasts who saw the need for clear, 
+                                accurate, and engaging technology journalism. What started as a small passion project has grown 
+                                into a trusted platform that reaches millions of readers worldwide.
+                            </p>
+                            <p>
+                                We cover a wide range of technology topics, from artificial intelligence and blockchain to 
+                                cutting-edge scientific discoveries and medical innovations. Our team of experienced writers 
+                                and industry experts work tirelessly to bring you the most relevant and interesting stories 
+                                from the technology world.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Team Section -->
+                <div class="team-section">
+                    <h2>Our Team</h2>
+                    <p class="team-intro">
+                        Meet the passionate individuals behind Tech Blog. Our diverse team brings together expertise 
+                        from various backgrounds in technology, journalism, and design.
+                    </p>
+                    
+                    <div class="team-grid">
+                  
+                        <div class="team-member">
+                            <div class="member-photo placeholder">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <h3>Maing</h3>
+                            <p class="member-role">Role/Position</p>
+                        </div>
+                        
+                        <div class="team-member">
+                            <div class="member-photo placeholder">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <h3>Hermino</h3>
+                            <p class="member-role">Role/Position</p>
+                        </div>
+                        
+                        <div class="team-member">
+                            <div class="member-photo placeholder">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <h3>Moncada</h3>
+                            <p class="member-role">Role/Position</p>
+                        </div>
+                        
+                        <div class="team-member">
+                            <div class="member-photo placeholder">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <h3>Zambales</h3>
+                            <p class="member-role">UI Designer</p>
+                        </div>
+                        
+                        <div class="team-member">
+                            <div class="member-photo placeholder">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <h3>Natividad</h3>
+                            <p class="member-role">Role/Position</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Contact Section -->
+                <div class="contact-section">
+                    <div class="contact-header">
+                        <h2>Contact Us</h2>
+                        <p>Have a question, feedback, or want to work with us? We'd love to hear from you!</p>
+                    </div>
+                    
+                    <form class="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </section>
+            
+            <!-- Newsletter Section -->
+            <section class="newsletter">
+                <h2>Subscribe to Our Newsletter</h2>
+                <p>Get the latest technology insights delivered straight to your inbox</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit" class="subscribe-btn">Subscribe</button>
+                </form>
+            </section>
+        </main>   
+        <footer>
+            <div class="footer-container">
+                <div class="footer-section">
+                    <h3>Tech Blog</h3>
+                    <p>Your source for the latest technology news, insights, and trends.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="ai.html">A.I</a></li>
+                        <li><a href="science.html">Science</a></li>
+                        <li><a href="blockchain.html">Blockchain</a></li>
+                        <li><a href="medical.html">Medical</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about_us.html">About Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Tech Blog. All rights reserved.</p>
+            </div>
+        </footer>
+        
+        <script src="about.js"></script>
+    </body>
+</html>

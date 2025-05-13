@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instruments of Discovery</title>
+    <link rel="stylesheet" href="science.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+        <!-- Header -->
+        <header>
+            <div class="logo-container">
+                <img src="images/logo.png" alt="Tech Blog Logo" class="logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li class="dropdown">
+                        <a href="#">CATEGORY</a> 
+                        <ul class="dropdown-content">
+                            <li><a href="ai.html">A.I</a></li>
+                            <li><a href="science.html">Science</a></li>
+                            <li><a href="blockchain.html">Blockchain</a></li>
+                            <li><a href="medical.html">Medical</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="about_us.html" class="active">ABOUT US</a></li>
+                </ul>
+            </nav>
+            <h3 class="companyname">Tech Blog</h3>
+            <div class="search-bar">
+                <input type="text" placeholder="Search">
+                <i class="fas fa-search search-icon"></i>
+            </div>
+        </header>
+<div class="container">
+        <!-- Introduction -->
+        <section class="intro-section">
+            <div class="intro-grid">
+                <div class="intro-text">
+                    <h2>The Tools That Changed Science</h2>
+                    <p>
+                        Scientific instruments are the backbone of experimental research and discovery. These precision
+                        tools allow scientists to observe, measure, and analyze phenomena that would otherwise remain invisible to
+                        human senses.
+                    </p>
+                    <p>
+                        From the humble microscope that revealed the microbial world to the massive particle accelerators
+                        probing the fundamental nature of matter, these instruments have continuously expanded the
+                        boundaries of human knowledge.
+                    </p>
+                </div>
+                <div class="intro-image">
+                    <img src="https://cds.cern.ch/images/CERN-PHOTO-201904-108-2/file?size=large" alt="CERN Large Hadron Collider">
+                </div>
+            </div>
+        </section>
+
+        <!-- Instrument Cards -->
+        <section class="instruments-section">
+            <h2 class="section-title">Exploring Scientific Instruments</h2>
+
+            <div class="card-grid">
+                <!-- Microscope -->
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Microscope</h3>
+                        <p class="card-description">Revealing the invisible microcosm</p>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-image">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b7/Ukrainian_microscope_%28cropped%29.jpg" alt="Microscope">
+                        </div>
+                        <p class="card-text">
+                            A microscope is an instrument used to see objects that are too small for the naked eye. It
+                            magnifies tiny specimens, allowing visualization of cells, bacteria, and molecular
+                            structures.
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn-outline" onclick="learnMore('microscope')">Learn More</button>
+                    </div>
+                </div>
+
+                <!-- Telescope -->
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Telescope</h3>
+                        <p class="card-description">Exploring the vastness of space</p>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-image">
+                            <img src="https://planewave.com/wp-content/uploads/2024/04/planewave-cdk300.png" alt="Telescope">
+                        </div>
+                        <p class="card-text">
+                            Telescopes are optical instruments designed to make distant objects appear magnified by collecting
+                            and analyzing radiation from them. They enable astronomers to observe celestial
+                            bodies and phenomena.
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn-outline" onclick="learnMore('telescope')">Learn More</button>
+                    </div>
+                </div>
+
+                <!-- Particle Accelerators -->
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Particle Accelerators</h3>
+                        <p class="card-description">Exploring the fundamental nature of matter</p>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-image">
+                            <img src="http://news.fnal.gov/wp-content/uploads/2015/10/cms-detector-cern.jpg" alt="Particle Accelerator">
+                        </div>
+                        <p class="card-text">
+                            Particle accelerators propel charged particles to high speeds and energies, allowing scientists
+                            to study fundamental properties of matter, discover new particles, and test theories of particle
+                            physics.
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn-outline" onclick="learnMore('particle-accelerators')">Learn More</button>
+                    </div>
+                </div>
+
+                <!-- Lenses -->
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Lenses</h3>
+                        <p class="card-description">The foundation of optical instruments</p>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-image placeholder-image">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+                                <path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                            </svg>
+                        </div>
+                        <p class="card-text">
+                            Lenses are transparent optical devices that focus or disperse light rays through refraction. They form the foundation
+                            of many scientific instruments, including microscopes, telescopes, and cameras.
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn-outline" onclick="learnMore('lenses')">Learn More</button>
+                    </div>
+                </div>
+
+                <!-- Mirrors -->
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Mirrors</h3>
+                        <p class="card-description">Reflecting light for precision instruments</p>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-image placeholder-image">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+                                <path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                            </svg>
+                        </div>
+                        <p class="card-text">
+                            Mirrors are surfaces that reflect light in a predictable way, maintaining image integrity. In scientific instruments,
+                            they gather and direct light in telescopes, microscopes, and optical systems.
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn-outline" onclick="learnMore('mirrors')">Learn More</button>
+                    </div>
+                </div>
+
+                <!-- Sensors -->
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Sensors</h3>
+                        <p class="card-description">Converting physical phenomena into data</p>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-image placeholder-image">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+                                <path d="M13 10V3L4 14h7v7l9-11h-7z" />
+                            </svg>
+                        </div>
+                        <p class="card-text">
+                            Scientific sensors detect and measure physical properties like light, radiation, temperature, and chemical compounds.
+                            They convert these properties into electrical signals that can be analyzed and interpreted.
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn-outline" onclick="learnMore('sensors')">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+</div>
+        <footer>
+            <div class="footer-container">
+                <div class="footer-section">
+                    <h3>Tech Blog</h3>
+                    <p>Your source for the latest technology news, insights, and trends.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="ai.html">A.I</a></li>
+                        <li><a href="science.html">Science</a></li>
+                        <li><a href="blockchain.html">Blockchain</a></li>
+                        <li><a href="medical.html">Medical</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about_us.html">About Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Tech Blog. All rights reserved.</p>
+            </div>
+        </footer>
+
+    <script src="science.js"></script>
+</body>
+</html>

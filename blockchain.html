@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blockchain.com Blog Clone</title>
+  <link rel="stylesheet" href="blockchain.css">
+</head>
+<body>
+  
+    <!-- Header section -->
+    <header>
+            <div class="logo-container">
+                <img src="images/logo.png" alt="Tech Blog Logo" class="logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li class="dropdown">
+                        <a href="#">CATEGORY</a> 
+                        <ul class="dropdown-content">
+                            <li><a href="ai.html">A.I</a></li>
+                            <li><a href="science.html">Science</a></li>
+                            <li><a href="blockchain.html">Blockchain</a></li>
+                            <li><a href="medical.html">Medical</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="about_us.html" class="active">ABOUT US</a></li>
+                </ul>
+            </nav>
+            <h3 class="companyname">Tech Blog</h3>
+            <div class="search-bar">
+                <input type="text" placeholder="Search">
+                <i class="fas fa-search search-icon"></i>
+            </div>
+        </header>
+    <div class="container">
+    <!-- Topics section -->
+    <section class="topics-section">
+      <label>Browse topics</label>
+      <div class="topics" id="topics">
+        <button class="topic active" data-topic="All">All</button>
+        <button class="topic" data-topic="Company News">Company News</button>
+        <button class="topic" data-topic="Product Updates">Product Updates</button>
+        <button class="topic" data-topic="Regulations">Regulations</button>
+        <button class="topic" data-topic="Trading">Trading</button>
+        <button class="topic" data-topic="Industry News">Industry News</button>
+      </div>
+    </section>
+    <!-- Blog posts grid -->
+    <main id="postsGrid" class="posts-grid">
+      <!-- Blog post cards will be rendered here -->
+    </main>
+    <button class="load-more" id="loadMoreBtn">Load more</button>
+  </div>
+    
+        <footer>
+            <div class="footer-container">
+                <div class="footer-section">
+                    <h3>Tech Blog</h3>
+                    <p>Your source for the latest technology news, insights, and trends.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="ai.html">A.I</a></li>
+                        <li><a href="science.html">Science</a></li>
+                        <li><a href="blockchain.html">Blockchain</a></li>
+                        <li><a href="medical.html">Medical</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about_us.html">About Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Tech Blog. All rights reserved.</p>
+            </div>
+        </footer>
+    
+  <script src="blockchain.js"></script>
+</body>
+</html>
